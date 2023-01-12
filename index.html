@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>dataposit</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Raleway:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+
+  <body>
+    <!-- header -->
+    <nav>
+      <img src="images/nav.png" width="100%" alt="#" />
+    </nav>
+    <!-- corosel -->
+    <div
+      id="carouselExampleDark"
+      class="carousel carousel-dark slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <div class="row d-flex flex-row bg-slider">
+            <div class="col pt-3 d-flex justify-content-end">
+              <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col p-3">
+                  <p class="text-white fs-2 pt-4 lh-lg">FIND YOUR MATCH</p>
+                  <button type="button" class="btn-hero mb-4 lh-lg">
+                    THE NEW MAZDA CX 30
+                  </button>
+                  <p class="fs-6 mb-5 text-white lh-lg">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                  <button type="button" class="btn-quote lh-lg">
+                    GET QUOTE
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col d-flex justify-content-start">
+              <img
+                src="https://media-assets.mazda.eu/image/upload/q_auto,f_auto/mazdauk/globalassets/cars/mazda-cx-5/grades/cx-5-clearcut-grades/prime-line/mmuk_cx-5_ksj1baa_46v_7-8.png?rnd=4a8d04"
+                class="d-block pt-4"
+                alt="..."
+              />
+            </div>
+          </div>
+          <div class="carousel-caption d-none d-md-block"></div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <div class="row d-flex flex-row bg-slider">
+            <div class="col pt-3 d-flex justify-content-end">
+              <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col p-3">
+                  <p class="text-white fs-2 pt-4 lh-lg">FIND YOUR MATCH</p>
+                  <button type="button" class="btn-hero mb-4 lh-lg">
+                    THE NEW MAZDA CX 30
+                  </button>
+                  <p class="fs-6 mb-5 text-white lh-lg">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                  <button type="button" class="btn-quote lh-lg">
+                    GET QUOTE
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col d-flex justify-content-start">
+              <img
+                src="https://media-assets.mazda.eu/image/upload/q_auto,f_auto/mazdauk/globalassets/cars/mazda-cx-5/grades/cx-5-clearcut-grades/prime-line/mmuk_cx-5_ksj1baa_46v_7-8.png?rnd=4a8d04"
+                class="d-block pt-4"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row d-flex flex-row bg-slider">
+            <div class="col pt-3 d-flex justify-content-end">
+              <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col p-3">
+                  <p class="text-white fs-2 pt-4 lh-lg">FIND YOUR MATCH</p>
+                  <button type="button" class="btn-hero mb-4 lh-lg">
+                    THE NEW MAZDA CX 30
+                  </button>
+                  <p class="fs-6 mb-5 text-white lh-lg">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                  <button type="button" class="btn-quote lh-lg">
+                    GET QUOTE
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col d-flex justify-content-start">
+              <img
+                src="https://media-assets.mazda.eu/image/upload/q_auto,f_auto/mazdauk/globalassets/cars/mazda-cx-5/grades/cx-5-clearcut-grades/prime-line/mmuk_cx-5_ksj1baa_46v_7-8.png?rnd=4a8d04"
+                class="d-block pt-4"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"
+          ><i class="ri-arrow-left-circle-line text-white fa-xl"></i
+        ></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- sec section -->
+    <div class="row mt-4 p-4">
+      <div class="col-md-2"></div>
+      <div class="col">
+        <div class="row">
+          <div class="col d-flex justify-content-center bg-dark">
+            <div class="text-center">
+              <img
+                src="https://media-assets.mazda.eu/image/upload/q_auto,f_auto/mazdauk/globalassets/cars/mazda-cx-5/grades/cx-5-clearcut-grades/prime-line/mmuk_cx-5_ksj1baa_46v_7-8.png?rnd=4a8d04"
+                class="pt-4"
+                alt="..."
+                width="50px"
+              />
+              <p class="h-lg fs-6 p-2 text-white">SALOON CAR</p>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center bg-whit">
+            <div class="text-center">
+              <img
+                src="https://media-assets.mazda.eu/image/upload/q_auto,f_auto/mazdauk/globalassets/cars/mazda-cx-5/grades/cx-5-clearcut-grades/prime-line/mmuk_cx-5_ksj1baa_46v_7-8.png?rnd=4a8d04"
+                class="pt-4"
+                alt="..."
+                width="50px"
+              />
+              <p class="h-lg fs-6 p-2 text-danger">SPORT UTILITY VEHICLE</p>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center bg-darky">
+            <div class="text-center">
+              <img
+                src="https://media-assets.mazda.eu/image/upload/q_auto,f_auto/mazdauk/globalassets/cars/mazda-cx-5/grades/cx-5-clearcut-grades/prime-line/mmuk_cx-5_ksj1baa_46v_7-8.png?rnd=4a8d04"
+                class="pt-4"
+                alt="..."
+                width="50px"
+              />
+              <p class="h-lg fs-6 p-2 text-white">4X4</p>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center bg-dark">
+            <div class="text-center">
+              <img
+                src="https://media-assets.mazda.eu/image/upload/q_auto,f_auto/mazdauk/globalassets/cars/mazda-cx-5/grades/cx-5-clearcut-grades/prime-line/mmuk_cx-5_ksj1baa_46v_7-8.png?rnd=4a8d04"
+                class="pt-4"
+                alt="..."
+                width="50px"
+              />
+              <p class="h-lg fs-6 p-2 text-white">TRACTORS & AGRICULTURE</p>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center bg-darky">
+            <div class="text-center">
+              <img
+                src="https://media-assets.mazda.eu/image/upload/q_auto,f_auto/mazdauk/globalassets/cars/mazda-cx-5/grades/cx-5-clearcut-grades/prime-line/mmuk_cx-5_ksj1baa_46v_7-8.png?rnd=4a8d04"
+                class="pt-4"
+                alt="..."
+                width="50px"
+              />
+              <p class="h-lg fs-6 p-2 text-white">TRUCKS & HEAVY COMMERCIAL</p>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4 bg-darky d-flex justify-content-between p-2">
+          <div class="col d-flex flex-row d-flex justify-content-between">
+            <div class="text-white">
+              <span class="p-2"> SORT BY: </span>
+              <select class="text-dang bg-added fw-6">
+                <option selected class="fs-6">DATE ADDED</option>
+              </select>
+            </div>
+            <div class="text-white">
+              <span class="p-2"> VIEW: </span>
+              <select class="text-dang bg-added">
+                <option selected>10 PER PAGE</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-2"></div>
+          <div class="col text-end">
+            <button
+              class="m-2 bg-darky text-white btn-lg border-sm border-white"
+            >
+              <span><i class="ri-apps-2-fill text-dang m-2"></i></span>GRID
+            </button>
+            <button class="bg-darky text-white border-sm border-white">
+              <span><i class="ri-list-check p-2 text-dang"></i></span>LIST
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+    <div class="row mt-4 p-4">
+      <div class="col-md-2"></div>
+      <div class="col-md-2">
+        <div class="bg-darky text-center p-2">
+          <span class="text-white">FILTER</span>
+          <span class="text-dang">CAR</span>
+        </div>
+        <!-- Form -->
+        <form class="form-color">
+          <div class="px-3 py-2">
+            <label class="pt-2 pb-1">MAKE</label>
+            <select class="form-select">
+              <option selected>Select Make</option>
+            </select>
+          </div>
+          <div class="px-3 py-2">
+            <label class="pt-2 pb-1">MODEL</label>
+            <select class="form-select">
+              <option selected>Select Model</option>
+            </select>
+          </div>
+          <div class="px-3 py-2">
+            <label class="pb-1">MAKE Year</label>
+            <select class="form-select">
+              <option selected>Select Year</option>
+            </select>
+          </div>
+          <div class="px-3 py-2">
+            <label class="pb-1">COLOUR</label>
+            <select class="form-select mb-3">
+              <option selected>Select Colour</option>
+            </select>
+          </div>
+          <div>
+            <img
+              class="px-3 mb-4"
+              src="images/prange.png"
+              width="100%"
+              height="60px"
+              alt="range"
+            />
+          </div>
+        </form>
+        <div class="bg-darky text-center mt-4">
+          <span class="text-white">JANUARY SALE</span>
+        </div>
+        <div class="p-1">
+          <img
+            class="px-3 pt-4"
+            src="https://media-assets.mazda.eu/image/upload/q_auto,f_auto/mazdauk/globalassets/cars/mazda-cx-5/grades/cx-5-clearcut-grades/prime-line/mmuk_cx-5_ksj1baa_46v_7-8.png?rnd=4a8d04"
+            width="220px"
+            alt="range"
+          />
+        </div>
+        <div class="px-3 mt-4">
+          <button type="button" class="btn-qt lh-lg px-3">Ksh 1,500,000</button>
+        </div>
+        <div class="bg-darky text-white p-1 mb-3">
+          <ul class="pt-2 nostyle">
+            <li class="pt-3">ENGINE TYPE: Four Cylinder</li>
+            <li class="pt-1">TRANSMISION: Automatic</li>
+            <li class="pt-1">FUEL TYPE: Petrol</li>
+            <li class="pt-1">VEHICLE ID: Qx8qx8imZ</li>
+          </ul>
+          <div class="px-3">
+            <button type="button" class="btn-quot lh-lg mb-3">GET QUOTE</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="card">
+          <div class="pt-5 px-5">
+            <img
+              src="https://media-assets.mazda.eu/image/upload/q_auto,f_auto/mazdauk/globalassets/cars/mazda-cx-5/grades/cx-5-clearcut-grades/prime-line/mmuk_cx-5_ksj1baa_46v_7-8.png?rnd=4a8d04"
+              class="card-img-top"
+              alt="..."
+            />
+          </div>
+          <div class="card-body">
+            <ul class="nostyle">
+              <span class="title-card"><b>MAZDA ATENZA 2014</b></span>
+              <div class="p-1">
+                <span class="text-red"
+                  ><i class="ri-star-s-fill text-red"></i
+                  ><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i
+                  ><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i
+                ></span>
+              </div>
+              <span>Starting From Ksh 1,400,000</span>
+              <li class="pt-1"><b>ENGINE TYPE:</b> Four Cylinder</li>
+              <li class="pt-1"><b>TRANSMISION:</b> Automatic</li>
+              <li class="pt-1"><b>FUEL TYPE: </b> Petrol</li>
+              <li class="pt-1"><b>VEHICLE ID:</b> Qx8qx8imZ</li>
+            </ul>
+            <div class="d-flex flex-row px-3">
+              <button type="button" class="btn-card lh-lg mb-3 bg-darky">
+                DESCRIPTION
+              </button>
+              <button type="button" class="btn-card lh-lg mb-3">
+                GET QUOTE
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card mt-3">
+          <div class="pt-5 px-5">
+            <img
+              src="https://media-assets.mazda.eu/image/upload/q_auto,f_auto/mazdauk/globalassets/cars/mazda-cx-5/grades/cx-5-clearcut-grades/prime-line/mmuk_cx-5_ksj1baa_46v_7-8.png?rnd=4a8d04"
+              class="card-img-top"
+              alt="..."
+            />
+          </div>
+          <div class="card-body">
+            <ul class="nostyle">
+              <span class="title-card"><b>MAZDA ATENZA 2014</b></span>
+              <div class="p-1">
+                <span class="text-red"
+                  ><i class="ri-star-s-fill text-red"></i
+                  ><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i
+                  ><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i
+                ></span>
+              </div>
+              <span>Starting From Ksh 1,400,000</span>
+              <li class="pt-1"><b>ENGINE TYPE:</b> Four Cylinder</li>
+              <li class="pt-1"><b>TRANSMISION:</b> Automatic</li>
+              <li class="pt-1"><b>FUEL TYPE: </b> Petrol</li>
+              <li class="pt-1"><b>VEHICLE ID:</b> Qx8qx8imZ</li>
+            </ul>
+            <div class="d-flex flex-row px-3">
+              <button type="button" class="btn-card lh-lg mb-3 bg-darky">
+                DESCRIPTION
+              </button>
+              <button type="button" class="btn-card lh-lg mb-3">
+                GET QUOTE
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card mt-3">
+          <div class="pt-5 px-5">
+            <img
+              src="https://media-assets.mazda.eu/image/upload/q_auto,f_auto/mazdauk/globalassets/cars/mazda-cx-5/grades/cx-5-clearcut-grades/prime-line/mmuk_cx-5_ksj1baa_46v_7-8.png?rnd=4a8d04"
+              class="card-img-top"
+              alt="..."
+            />
+          </div>
+          <div class="card-body">
+            <ul class="nostyle">
+              <span class="title-card"><b>MAZDA ATENZA 2014</b></span>
+              <div class="p-1">
+                <span class="text-red"
+                  ><i class="ri-star-s-fill text-red"></i
+                  ><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i
+                  ><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i
+                ></span>
+              </div>
+              <span>Starting From Ksh 1,400,000</span>
+              <li class="pt-1"><b>ENGINE TYPE:</b> Four Cylinder</li>
+              <li class="pt-1"><b>TRANSMISION:</b> Automatic</li>
+              <li class="pt-1"><b>FUEL TYPE: </b> Petrol</li>
+              <li class="pt-1"><b>VEHICLE ID:</b> Qx8qx8imZ</li>
+            </ul>
+            <div class="d-flex flex-row px-3">
+              <button type="button" class="btn-card lh-lg mb-3 bg-darky">
+                DESCRIPTION
+              </button>
+              <button type="button" class="btn-card lh-lg mb-3">
+                GET QUOTE
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="card">
+          <div class="pt-5 px-5">
+            <img
+              src="https://media-assets.mazda.eu/image/upload/q_auto,f_auto/mazdauk/globalassets/cars/mazda-cx-5/grades/cx-5-clearcut-grades/prime-line/mmuk_cx-5_ksj1baa_46v_7-8.png?rnd=4a8d04"
+              class="card-img-top"
+              alt="..."
+            />
+          </div>
+          <div class="card-body">
+            <ul class="nostyle">
+              <span class="title-card"><b>MAZDA ATENZA 2014</b></span>
+              <div class="p-1">
+                <span class="text-red"
+                  ><i class="ri-star-s-fill text-red"></i
+                  ><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i
+                  ><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i
+                ></span>
+              </div>
+              <span>Starting From Ksh 1,400,000</span>
+              <li class="pt-1"><b>ENGINE TYPE:</b> Four Cylinder</li>
+              <li class="pt-1"><b>TRANSMISION:</b> Automatic</li>
+              <li class="pt-1"><b>FUEL TYPE: </b> Petrol</li>
+              <li class="pt-1"><b>VEHICLE ID:</b> Qx8qx8imZ</li>
+            </ul>
+            <div class="d-flex flex-row px-3">
+              <button type="button" class="btn-card lh-lg mb-3 bg-darky">
+                DESCRIPTION
+              </button>
+              <button type="button" class="btn-card lh-lg mb-3">
+                GET QUOTE
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card mt-3">
+          <div class="pt-5 px-5">
+            <img
+              src="https://media-assets.mazda.eu/image/upload/q_auto,f_auto/mazdauk/globalassets/cars/mazda-cx-5/grades/cx-5-clearcut-grades/prime-line/mmuk_cx-5_ksj1baa_46v_7-8.png?rnd=4a8d04"
+              class="card-img-top"
+              alt="..."
+            />
+          </div>
+          <div class="card-body">
+            <ul class="nostyle">
+              <span class="title-card"><b>MAZDA ATENZA 2014</b></span>
+              <div class="p-1">
+                <span class="text-red"
+                  ><i class="ri-star-s-fill text-red"></i
+                  ><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i
+                  ><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i
+                ></span>
+              </div>
+              <span>Starting From Ksh 1,400,000</span>
+              <li class="pt-1"><b>ENGINE TYPE:</b> Four Cylinder</li>
+              <li class="pt-1"><b>TRANSMISION:</b> Automatic</li>
+              <li class="pt-1"><b>FUEL TYPE: </b> Petrol</li>
+              <li class="pt-1"><b>VEHICLE ID:</b> Qx8qx8imZ</li>
+            </ul>
+            <div class="d-flex flex-row px-3">
+              <button type="button" class="btn-card lh-lg mb-3 bg-darky">
+                DESCRIPTION
+              </button>
+              <button type="button" class="btn-card lh-lg mb-3">
+                GET QUOTE
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card mt-3">
+          <div class="pt-5 px-5">
+            <img
+              src="https://media-assets.mazda.eu/image/upload/q_auto,f_auto/mazdauk/globalassets/cars/mazda-cx-5/grades/cx-5-clearcut-grades/prime-line/mmuk_cx-5_ksj1baa_46v_7-8.png?rnd=4a8d04"
+              class="card-img-top"
+              alt="..."
+            />
+          </div>
+          <div class="card-body">
+            <ul class="nostyle">
+              <span class="title-card"><b>MAZDA ATENZA 2014</b></span>
+              <div class="p-1">
+                <span class="text-red"
+                  ><i class="ri-star-s-fill text-red"></i
+                  ><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i
+                  ><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i
+                ></span>
+              </div>
+              <span>Starting From Ksh 1,400,000</span>
+              <li class="pt-1"><b>ENGINE TYPE:</b> Four Cylinder</li>
+              <li class="pt-1"><b>TRANSMISION:</b> Automatic</li>
+              <li class="pt-1"><b>FUEL TYPE: </b> Petrol</li>
+              <li class="pt-1"><b>VEHICLE ID:</b> Qx8qx8imZ</li>
+            </ul>
+            <div class="d-flex flex-row px-3">
+              <button type="button" class="btn-card lh-lg mb-3 bg-darky">
+                DESCRIPTION
+              </button>
+              <button type="button" class="btn-card lh-lg mb-3">
+                GET QUOTE
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="card">
+          <div class="pt-5 px-5">
+            <img
+              src="https://media-assets.mazda.eu/image/upload/q_auto,f_auto/mazdauk/globalassets/cars/mazda-cx-5/grades/cx-5-clearcut-grades/prime-line/mmuk_cx-5_ksj1baa_46v_7-8.png?rnd=4a8d04"
+              class="card-img-top"
+              alt="..."
+            />
+          </div>
+          <div class="card-body">
+            <ul class="nostyle">
+              <span class="title-card"><b>MAZDA ATENZA 2014</b></span>
+              <div class="p-1">
+                <span class="text-red"
+                  ><i class="ri-star-s-fill text-red"></i
+                  ><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i
+                  ><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i
+                ></span>
+              </div>
+              <span>Starting From Ksh 1,400,000</span>
+              <li class="pt-1"><b>ENGINE TYPE:</b> Four Cylinder</li>
+              <li class="pt-1"><b>TRANSMISION:</b> Automatic</li>
+              <li class="pt-1"><b>FUEL TYPE: </b> Petrol</li>
+              <li class="pt-1"><b>VEHICLE ID:</b> Qx8qx8imZ</li>
+            </ul>
+            <div class="d-flex flex-row px-3">
+              <button type="button" class="btn-card lh-lg mb-3 bg-darky">
+                DESCRIPTION
+              </button>
+              <button type="button" class="btn-card lh-lg mb-3">
+                GET QUOTE
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card mt-3">
+          <div class="pt-5 px-5">
+            <img
+              src="https://media-assets.mazda.eu/image/upload/q_auto,f_auto/mazdauk/globalassets/cars/mazda-cx-5/grades/cx-5-clearcut-grades/prime-line/mmuk_cx-5_ksj1baa_46v_7-8.png?rnd=4a8d04"
+              class="card-img-top"
+              alt="..."
+            />
+          </div>
+          <div class="card-body">
+            <ul class="nostyle">
+              <span class="title-card"><b>MAZDA ATENZA 2014</b></span>
+              <div class="p-1">
+                <span class="text-red"
+                  ><i class="ri-star-s-fill text-red"></i
+                  ><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i
+                  ><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i
+                ></span>
+              </div>
+              <span>Starting From Ksh 1,400,000</span>
+              <li class="pt-1"><b>ENGINE TYPE:</b> Four Cylinder</li>
+              <li class="pt-1"><b>TRANSMISION:</b> Automatic</li>
+              <li class="pt-1"><b>FUEL TYPE: </b> Petrol</li>
+              <li class="pt-1"><b>VEHICLE ID:</b> Qx8qx8imZ</li>
+            </ul>
+            <div class="d-flex flex-row px-3">
+              <button type="button" class="btn-card lh-lg mb-3 bg-darky">
+                DESCRIPTION
+              </button>
+              <button type="button" class="btn-card lh-lg mb-3">
+                GET QUOTE
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card mt-3">
+          <div class="pt-5 px-5">
+            <img
+              src="https://media-assets.mazda.eu/image/upload/q_auto,f_auto/mazdauk/globalassets/cars/mazda-cx-5/grades/cx-5-clearcut-grades/prime-line/mmuk_cx-5_ksj1baa_46v_7-8.png?rnd=4a8d04"
+              class="card-img-top"
+              alt="..."
+            />
+          </div>
+          <div class="card-body">
+            <ul class="nostyle">
+              <span class="title-card"><b>MAZDA ATENZA 2014</b></span>
+              <div class="p-1">
+                <span class="text-red"
+                  ><i class="ri-star-s-fill text-red"></i
+                  ><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i
+                  ><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i
+                ></span>
+              </div>
+              <span>Starting From Ksh 1,400,000</span>
+              <li class="pt-1"><b>ENGINE TYPE:</b> Four Cylinder</li>
+              <li class="pt-1"><b>TRANSMISION:</b> Automatic</li>
+              <li class="pt-1"><b>FUEL TYPE: </b> Petrol</li>
+              <li class="pt-1"><b>VEHICLE ID:</b> Qx8qx8imZ</li>
+            </ul>
+            <div class="d-flex flex-row px-3">
+              <button type="button" class="btn-card lh-lg mb-3 bg-darky">
+                DESCRIPTION
+              </button>
+              <button type="button" class="btn-card lh-lg mb-3">
+                GET QUOTE
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2"></div>
+      <!-- pagination -->
+      <div class="row mt-4 p-4">
+        <div class="col-md-2"></div>
+        <div class="col-md-2"></div>
+        <div class="col-md-2">
+          <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item bg-darky">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true" class="text-white">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item pg-link">
+                <a class="page-link" href="#">1</a>
+              </li>
+              <li class="page-item pg-bg">
+                <a class="page-link" href="#">2</a>
+              </li>
+              <li class="page-item pg-bg">
+                <a class="page-link" href="#">3</a>
+              </li>
+              <li class="page-item pg-bg">
+                <a class="page-link" href="#">4</a>
+              </li>
+              <li class="page-item pg-bg">
+                <a class="page-link" href="#">5</a>
+              </li>
+              <li class="page-item pg-bg bg-darky">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true" class="text-white">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="row bg-footer">
+      <div class="p-4 d-flex flex-row">
+        <div class="p-2 col-md-2"></div>
+        <div class="p-2 col-md-4">
+          <h3 class="text-white mb-3">Lorem ipsum</h3>
+          <p class="text-white">
+            dolor sit amet, consectetur adipiscing elit, sed do <br />
+            tempor incididunt ut labore et dolore magna <br />aliqua. Ut enim ad
+            minim veniam, quis nostrud
+          </p>
+          <h6 class="text-white fw-semibold mb-4">READ MORE</h6>
+          <form class="mb-4">
+            <input
+              classs="form-control"
+              type="search"
+              name=""
+              placeholder="Subscribe on Updates"
+            />
+          </form>
+          <p class="text-white">
+            We Guarantee that we will not share your email with any other party
+          </p>
+        </div>
+        <div class="p-2 col-md-2">
+          <p class="text-white px-4">
+            USEFULL <span class="text-red">LINKS</span>
+          </p>
+          <div class="d-flex flex-row">
+            <ul class="nostyle">
+              <li class="p-2 text-white">LISTINGS</li>
+              <li class="p-2 text-red">SERVICES</li>
+              <li class="p-2 text-white">ABOUT</li>
+              <li class="p-2 text-white">BLOG</li>
+            </ul>
+            <ul class="nostyle">
+              <li class="text-white p-2">FAQ</li>
+              <li class="text-white p-2">LINK</li>
+              <li class="text-white p-2">SHOP</li>
+              <li class="text-white p-2">CONTACTS</li>
+            </ul>
+          </div>
+          <div class="border mt-3">
+            <ul class="nostyle">
+              <li class="text-white p-2">(+254) 123 456 789</li>
+              <li class="text-white p-2">enquiries@cmcmotors.com</li>
+              <li class="text-white p-2">Nairobi Kenya</li>
+              <li class="text-white p-2">CONTACTS</li>
+            </ul>
+          </div>
+        </div>
+        <div class="p-2 col-md-4">
+          <p class="text-white px-4">
+            RECENT <span class="text-red">POSTS</span>
+          </p>
+          <div class="mb-3">
+            <div class="row g-0 bg-footer">
+              <div class="col-md-4">
+                <img
+                  src="https://media-assets.mazda.eu/image/upload/q_auto,f_auto/mazdauk/globalassets/cars/mazda-cx-5/grades/cx-5-clearcut-grades/prime-line/mmuk_cx-5_ksj1baa_46v_7-8.png?rnd=4a8d04"
+                  class="img-fluid p-3"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body mt-3">
+                  <h5 class="card-title text-red">15 JAN 2022</h5>
+                  <p class="card-text">
+                    <small class="text-white">THE NEW MAZDA AXELA 2021</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="row g-0 bg-footer mt-3">
+              <div class="col-md-4">
+                <img
+                  src="https://media-assets.mazda.eu/image/upload/q_auto,f_auto/mazdauk/globalassets/cars/mazda-cx-5/grades/cx-5-clearcut-grades/prime-line/mmuk_cx-5_ksj1baa_46v_7-8.png?rnd=4a8d04"
+                  class="img-fluid p-3"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body mt-3">
+                  <h5 class="card-title text-red">15 JAN 2022</h5>
+                  <p class="card-text">
+                    <small class="text-white">THE NEW MAZDA AXELA 2021</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="row g-0 bg-footer mt-3">
+              <div class="col-md-4">
+                <img
+                  src="https://media-assets.mazda.eu/image/upload/q_auto,f_auto/mazdauk/globalassets/cars/mazda-cx-5/grades/cx-5-clearcut-grades/prime-line/mmuk_cx-5_ksj1baa_46v_7-8.png?rnd=4a8d04"
+                  class="img-fluid p-3"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body mt-3">
+                  <h5 class="card-title text-red">15 JAN 2022</h5>
+                  <p class="card-text">
+                    <small class="text-white">THE NEW MAZDA AXELA 2021</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="hr-border" />
+      <div class="row mb-3 bg-footer">
+        <div class="col-md-8 text-center text-white">
+          Copyright ©Sepia. All Rights Reserved. Privacy Policy | Website
+          Developed by www.sepia.co.ke
+        </div>
+        <div class="col-md-4">
+          <div class="row">
+            <span class="text-white">
+              <i class="ri-facebook-circle-line p-3"></i
+              ><i class="ri-twitter-line p-3"></i
+              ><i class="p-3 ri-google-fill"></i
+            ></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

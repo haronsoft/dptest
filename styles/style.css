@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Raleway:wght@100;300;400&display=swap');
+body {
+  background-color: gainsboro;
+  overflow-x: hidden;
+  font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif;
+}
+.bg-slider {
+  background: rgb(226, 226, 226);
+  background: radial-gradient(
+    circle,
+    rgba(226, 226, 226, 1) 0%,
+    rgba(107, 110, 113, 1) 0%,
+    rgba(29, 33, 38, 1) 55%
+  );
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: #fdfdfd;
+}
+.btn-hero {
+  background-color: #ff0000; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.btn-quote {
+  background-color: #ff0000; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  width: 260px;
+  height: 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+}
+.btn-quot {
+  background-color: #ff0000; /* Green */
+  border: none;
+  color: white;
+  width: 180px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+.btn-qt {
+  background-color: #ff0000; /* Green */
+  border: none;
+  color: white;
+  position: absolute;
+  margin-top: -30px;
+  width: 180px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+}
+.btn-card {
+  background-color: #ff0000; /* Green */
+  border: none;
+  color: white;
+  width: 150px;
+  height: 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+.bg-whit {
+  background-color: rgb(243, 243, 243);
+}
+.bg-darky {
+  background-color: #202138;
+}
+.text-dang {
+  color: #ff0000;
+}
+.bg-added {
+  background-color: #202138;
+  border-top: none;
+  border-right: none;
+  border-bottom: 3px dotted #f00;
+  border-left: none;
+  padding: 5px;
+}
+.form-color {
+  background-color: azure;
+}
+.nostyle {
+  list-style: none;
+  font-size: 13px;
+}
+.title-card {
+  font-size: 13px;
+  color: gray;
+}
+.text-red {
+  color: #f00;
+}
+
+.page-link {
+  color: black !important;
+  border: none !important;
+}
+.pg-bg {
+  background-color: rgb(187, 187, 187) !important;
+}
+.pg-link {
+  background: #f00;
+ 
+}
+.page-item{
+  margin: 5px;
+}
+--bs-pagination-hover-bg {
+  background-color: rgb(227, 221, 221) !important;
+}
+.pagination {
+  --bs-pagination-bg: none;
+}
+.bg-footer{
+  background-color: rgb(33, 33, 68);
+}
+.hr-border{
+  border-top: 2px solid rgb(255, 255, 255)
+}
